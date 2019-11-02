@@ -12,6 +12,17 @@ a:hover {
 body {
     background: black;
 }
+ul {
+    padding: 0;
+    margin: 0;
+}
+ul li {
+    list-style-type: none;
+}
+.text-green {
+    color: #00FF00 !important;
+    font-weight: bold !important;
+}
 /* Header */
 .wrapper {
     width: 85%;
@@ -115,7 +126,6 @@ button {
 }
 
 .header-contact-bar ul>li, .navbar-category-active li, .list-product-menu {
-    list-style-type: none;
     font-size: .9em;
 }
 .header-contact-bar ul>li {
@@ -233,7 +243,7 @@ button {
  */
 
 /* ---------- CONTENT (list product & sidebar) --------- */
-.content:after {
+.content:after, .channel-local-address:after {
     content: ".";
     clear: both;
     display: block;
@@ -319,10 +329,9 @@ button {
 --------------------
 --------------------
 -------------------- */
-#carousel {
-    width: 100%;
-    min-height: 300px;
-    background: green;
+.carousel-inner img {
+      width: 100%;
+      height: 100%;
 }
 .list-product-menu {
     min-height: 40px;
@@ -448,7 +457,7 @@ button {
 }
 .future-box-item {
     width: 24%; 
-    border: 1px solid #fff;
+    border: 1px solid #e0e0e0;
     padding: 3px;
     text-align: center;
 }
@@ -465,9 +474,83 @@ button {
 /* --------- FOOTER ---------- */
 .footer {
     width: 100%;
-    min-height: 250px;
-    background: red;
+    background: #333333;
+    padding: 10px 15px;
 }
+.footer hr {
+    border-top: 1px solid #f2f2f2;
+}
+.page-contact {
+    width: 100%;
+    min-height: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.page-contact a {
+    color: #999;
+}
+.page-contact h5 a {
+    color: #e4e4e4;
+    font-weight: 500;
+}
+.page-contact a:hover {
+    color: #fff;
+}
+.page-contact .fb-page {
+    width: 30%;
+}
+.fb-page img {
+    width: 100%;
+}
+.page-contact ul {
+    width: 18%;
+}
+.page-contact ul:first-child {
+    margin-left: 20px;
+}
+.page-contact ul:last-child {
+    width: 34%;
+}
+.page-contact ul li, .channel-local-address p {
+    font-size: .8em;
+}
+.page-contact ul li {
+    line-height: 1.3em;
+}
+.channel-local-address p {
+    text-align: left;
+    line-height: .8em;
+    color: #e4e4e4;
+}
+.channel-local-address {
+    width: 100%;
+    position: relative;
+}
+.com-address {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.channel-address {
+    position: absolute;
+    top: 0;
+    left: 70%;
+}
+.channel-address a {
+    font-size: 2em;
+    padding: 5px;
+}
+.fa-youtube {
+    color: #FA3737;
+}
+.fa-facebook {
+    color: #1C4FF5;
+}
+
+
+
+
 
 
 
