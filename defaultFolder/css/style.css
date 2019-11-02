@@ -166,7 +166,7 @@ button {
 .content-wrapper {
     padding: 1em;
 }
-.content-wrapper, .navbar-inner, .navbar-category, .shopping-cart-inner {
+.content-wrapper, .navbar-inner, .navbar-category, .shopping-cart-inner, .future-box-item {
 	border-radius: 6px;
 }
 .navbar {
@@ -241,7 +241,6 @@ button {
 }
 .content {
     width: 100%;
-    /* background: red; */
     margin-top: 13px;
 }
 .left-sidebar {
@@ -260,22 +259,41 @@ button {
     float: right;
 }
 /* -------- BIG SHOP --------- */
+.commitment {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 .bigshop {
     width: 100%;
     min-height: 300px;
 }
+.bigshop-big-banner {
+    width: 50%;
+    height: 100%;
+    max-height: 600px;
+    max-width: 400px;
+    
+}
+.bigshop-big-banner img {
+    width: 100%;
+}
+.bigshop a {
+    margin-top: 10px;
+}
 .bigshop a:first-child {
     margin-top: 0;
 }
-.bigshop a {
+.bigshop a, .bigshop-big-banner a {
     display: block;
     height: 100%;
     position: relative;
 }
-.bigshop a:hover::after {
+.bigshop a:hover::after, .bigshop-big-banner a:hover::after {
     display: block;
 }
-.bigshop a::after {
+.bigshop a::after, .bigshop-big-banner a::after {
     content: "";
     background: rgba(1,1,1,.3);
     display: none;
@@ -291,7 +309,6 @@ button {
 }
 .bigshop-banner {
     width: 100%;
-    margin-top: 10px;
     position: relative;
 }
 
@@ -316,9 +333,11 @@ button {
     margin: 0;
     padding: 0;
 }
+.future-box-item h5,.list-product-menu li, .list-product-menu-bonus a  {
+    text-transform: uppercase;
+}
 .list-product-menu li {
     width: 100%;
-    text-transform: uppercase;
     font-weight: 500;
     font-size: 1.2em;
     text-align: left;
@@ -330,12 +349,11 @@ button {
     text-align: right;
 }
 .list-product-menu-bonus a {
-    text-transform: uppercase;
     line-height: 30px;
 }
 .list-product-item {
     width: 100%;
-    min-height: 300px;
+    min-height: 800px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -343,7 +361,7 @@ button {
 .product-item {
     width: 33.3333%;
     padding: 8px;
-    min-height: 300px;
+    height: 300px;
     border: 1px solid transparent;
 }
 .product-item:hover {
@@ -418,8 +436,38 @@ button {
     border-radius: 4px;
     font-weight: bold;
 }
-
-
+/* ----- FUTURE BOX ---- */
+.future-box {
+    margin-top: 10px;
+    width: 100%;
+    min-height: 100px;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.future-box-item {
+    width: 24%; 
+    border: 1px solid #fff;
+    padding: 3px;
+    text-align: center;
+}
+.future-box-item p {
+    font-size: .8em;
+}
+.future-box h5 {
+    padding: 0;
+    margin: 0;
+    color: #FFF34D;
+    font-size: 1.1em;
+    font-weight: 700;
+}
+/* --------- FOOTER ---------- */
+.footer {
+    width: 100%;
+    min-height: 250px;
+    background: red;
+}
 
 
 
