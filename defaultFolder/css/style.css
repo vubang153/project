@@ -146,8 +146,7 @@ button {
 .shopping-cart {
     position: relative;
 }
-.shopping-cart-link {
-}
+
 .shopping-cart-inner {
     position: absolute;
     width: 450px;
@@ -157,6 +156,79 @@ button {
     background: red;
     z-index: 6;
     display: none;
+    padding: 8px;
+    font-size: .8em;
+}
+.mini-shopping-list-product {
+    width: 100%;
+    min-height: 200px;
+}
+.mini-shopping-product {
+    width: 100%;
+    max-height: 85px;
+    border-bottom: 1px solid;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+.mini-shopping-product div {
+    padding: 10px;
+}
+.mini-shopping-product p,a {
+    margin: 0;
+}
+.mini-shopping-product-img 
+{
+    width: 17%;
+}
+.mini-shopping-product-img a {
+    display: block;
+    width: 100%;
+    background: #fff;
+    height: 50px;
+    position: relative;
+}
+.mini-shopping-product-img a img {
+    width: 33px;
+    display: block;
+    position: absolute;
+    top: 16px;
+    left: 10px;
+}
+.mini-shopping-product-title {
+    width: 50%;
+}
+.mini-shopping-product-title a {
+}
+.mini-shopping-product-quantity {
+    width: 2%;
+}
+.mini-shopping-product-price {
+    width: 20%;
+}
+.mini-shopping-product-cancel {
+    width: 11%;
+}
+.mini-shopping-product-cancel a {
+    font-size: 1.1em;
+}
+.mini-shopping-payment {
+    width: 100%;
+}
+.mini-shopping-payment table {
+    width: 100%;
+    margin-top: 20px;
+    line-height: 2em;
+}
+.mini-shopping-payment table tr *,.mini-shopping-product {
+    border-color: #ccc;
+}
+.mini-shopping-payment table tr * {
+    padding-right: 10px;
+    border: 1px solid;
+}
+.mini-shopping-payment .mini-shopping-payment-button button  {
+    margin: 0 5px;
 }
 
 /* Body */
@@ -494,6 +566,9 @@ button {
     color: #e4e4e4;
     font-weight: 500;
 }
+.page-contact h5 {
+    font-size: 1.1em;
+}
 .page-contact a:hover {
     color: #fff;
 }
@@ -520,7 +595,7 @@ button {
 }
 .channel-local-address p {
     text-align: left;
-    line-height: .8em;
+    padding: 0;
     color: #e4e4e4;
 }
 .channel-local-address {
