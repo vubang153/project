@@ -7,7 +7,7 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <div class="main-content">
     <div class="content-wrapper">
-        <%@include file="navbar.jsp" %>
-        <%@include file="content.jsp" %>
+        <jsp:include page="navbar.jsp" flush="true" />
+        <jsp:include page="content.jsp" flush="true" />
     </div>
 </div>

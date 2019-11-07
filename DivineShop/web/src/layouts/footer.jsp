@@ -8,7 +8,7 @@
 <div class="footer">
     <div class="page-contact">
         <div class="fb-page">
-            <img src="img/TB1T7K2d8Cw3KVjSZFuXXcAOpXa.png" alt="">
+            <img src="src/img/TB1T7K2d8Cw3KVjSZFuXXcAOpXa.png" alt="">
         </div>
         <ul class="ml-4">
             <h5>
@@ -82,7 +82,10 @@
             <a href="" class="fab fa-youtube"></a>
             <a href="" class="fab fa-facebook"></a>
             <a href="" class="fab fa-google"></a>
-
         </div>
     </div>
 </div>
+</div>
+</div>
+</body>
+</html>
