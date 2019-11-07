@@ -666,10 +666,10 @@ button {
 .login p {
     margin: 0;
 }
-.login h6, label, p {
+.login h6, .login label, .login p {
     color: #a6a6a6;
 }
-.login label, button {
+.login label, .login button {
     display: block;
     margin-top: 10px;
 }
@@ -715,6 +715,9 @@ button {
     min-height: 30px;
     border-top: 1px dotted #fff;
 
+}
+.login-account-option ul li:hover {
+    background: #ccc;
 }
 .login-account-option ul li:first-child {
     border: none;
