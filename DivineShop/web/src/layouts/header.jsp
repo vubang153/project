@@ -7,7 +7,9 @@
 <!DOCTYPE html>
 <html lang="en">
     <jsp:include page="file-include.jsp" flush="true" />
+    <!--Open body tag-->
     <body>
+        <!--Open .wrapper tag-->
         <div class="wrapper">
             <div class="header">
                 <div class="header-menu">

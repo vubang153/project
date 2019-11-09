@@ -6,5 +6,5 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <div class="content">
-    <jsp:include page="register.jsp" flush="true" />
+    <jsp:include page="login.jsp" flush="true" />
 </div>
