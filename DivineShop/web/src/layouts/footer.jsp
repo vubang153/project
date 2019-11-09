@@ -5,6 +5,7 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!--Start of footer-->
 <div class="footer">
     <div class="page-contact">
         <div class="fb-page">
@@ -85,7 +86,10 @@
         </div>
     </div>
 </div>
+<!--End of footer-->
 </div>
-</div>
+<!--Close .wrapper tag-->
+<!--</div>-->
+<!--Close body tag-->
 </body>
 </html>

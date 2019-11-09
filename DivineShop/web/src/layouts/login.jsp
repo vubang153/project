@@ -23,13 +23,13 @@
 <div class="login">
     <div class="login-side">
         <div class="login-welcome box-white-border">
-            <form action="dang-ky_submit" method="POST" accept-charset="utf-8">
+            <form action="dang-ky_submit" method="POST" accept-charset="utf-8" id="login-form">
                 <h4>Khách hàng cũ</h4>
                 <h6>Tôi là khách hàng cũ</h6>
                 <label for="txtUsername">Địa chỉ E-mail:</label>
                 <input type="text" name="txtUsername" placeholder="Địa chỉ E-Mail: " id="txtUsername">
                 <label for="txtPassword">Mật khẩu: </label>
-                <input type="text" name=""  placeholder="Mật khẩu: " id="txtPassword">
+                <input type="password" name="txtPassword"  placeholder="Mật khẩu: " id="txtPassword">
                 <button type="submit" class="btn btn-red">Đăng nhập</button>
             </form>
         </div>

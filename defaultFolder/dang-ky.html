@@ -4,11 +4,14 @@
     <head>
         <meta charset="UTF-8">
         <title>Document</title>
-        <script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+        <script src="js/jQueryValidation/lib/jquery.js" type="text/javascript" charset="utf-8"></script>
+        <script src="js/jQueryValidation/lib/jquery.form.js" type="text/javascript" charset="utf-8"></script>
+        <script src="js/jQueryValidation/lib/jquery.mockjax.js" type="text/javascript" charset="utf-8"></script>
+        <script src="js/jQueryValidation/dist/jquery.validate.min.js" type="text/javascript" charset="utf-8"></script>
         <script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
         <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
         <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-        <link rel="stylesheet" type="text/css" href="font-awesome/css/all.css">
+        <link rel="stylesheet" type="text/css" href="font-awesome/css/all.min.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
@@ -173,7 +176,7 @@
                     	<div class="login">
                     			<div class="login-side">
                     				<div class="login-welcome box-white-border">
-                    					<form action="dang-ky_submit" method="POST" accept-charset="utf-8">
+                    					<form action="dang-ky_submit" method="POST" accept-charset="utf-8" id="reg-form">
                     						<h4>Khách hàng cũ</h4>
                     						<h6>Tôi là khách hàng cũ</h6>
                     						<label for="txtUsername">Địa chỉ E-mail:</label>
