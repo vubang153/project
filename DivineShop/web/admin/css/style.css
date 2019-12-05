@@ -1,0 +1,22 @@
+
+/* Chi tiet hoa don */
+.info-bill {
+    min-height: 300px;
+    border-right: 1px solid #ccc;
+}
+.info-bill p {
+    width: 100%;
+}
+.list-product-bill {
+    min-height: 250px;
+    height: auto;
+    float: left;
+}
+.wrapper-bill-detail {
+}
+.bill-table tr td {
+    font-size: 0.8em;
+}
+.bill-table tr th {
+    font-size: 0.9em !important;
+}

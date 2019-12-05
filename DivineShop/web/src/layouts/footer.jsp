@@ -6,6 +6,9 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!--Start of footer-->
+</div>
+</div>
+</div>
 <div class="footer">
     <div class="page-contact">
         <div class="fb-page">

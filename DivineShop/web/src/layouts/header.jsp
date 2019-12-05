@@ -17,17 +17,17 @@
                     <a href="">
                         <i class="fas fa-plus-circle"></i>
                     </a>
-                    <a href="" class="header-menu-item menu-item">Đăng nhập</a>
-                    <a href="" class="header-menu-item menu-item">Đăng ký</a>
+                    <a href="login.jsp" class="header-menu-item menu-item">Đăng nhập</a>
+                    <a href="register.jsp" class="header-menu-item menu-item">Đăng ký</a>
                 </div>
                 <div class="header-bar">
                     <div class="logo">
-                        <a href="#">
+                        <a href="home.jsp">
                             <img src="src/img/logo.png" alt="">
                         </a>
                     </div>
                     <div class="search-bar">
-                        <form action="" method="get" accept-charset="utf-8">
+                        <form action="" method="POST" accept-charset="utf-8">
                             <div class="search-bar-inner">
                                 <input type="text" name="" value="" placeholder="Tìm kiếm">
                                 <button type="submit">
@@ -90,3 +90,7 @@
                     </div>
                 </div>
             </div>
+            <div class="main-content">
+                <div class="content-wrapper">
+                    <jsp:include page="navbar.jsp" flush="true" />
+                    <div class="content">

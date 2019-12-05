@@ -4,99 +4,66 @@
     Author     : Admin
 --%>
 
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<title>${title}</title>
 <div class="left-sidebar">
     <div class="bigshop">
         <a href="">
-            <img src="img/banner.png" alt="" class="bigshop-banner">
+            <img src="src/img/banner.png" alt="" class="bigshop-banner">
         </a>
         <a href="">
-            <img src="img/banner2.png" alt="" class="bigshop-banner">
+            <img src="src/img/banner2.png" alt="" class="bigshop-banner">
         </a>
         <a href="">
-            <img src="img/banner3.png" alt="" class="bigshop-banner">
+            <img src="src/img/banner3.png" alt="" class="bigshop-banner">
         </a>
     </div>
     <div class="top-5-product"></div>
 </div>
 <div class="list-product">
-    <div id="carousel" class="carousel slide" data-ride="carousel">
-        <!-- The slideshow -->
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="img/carousel1.png" alt="Los Angeles" width="1100" height="500">
-            </div>
-            <div class="carousel-item">
-                <img src="img/carousel2.png" alt="Chicago" width="1100" height="500">
-            </div>
-            <div class="carousel-item">
-                <img src="img/carousel1.png" alt="New York" width="1100" height="500">
-            </div>
-        </div>
-
-        <!-- Left and right controls -->
-        <a class="carousel-control-prev" href="#carousel" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#carousel" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </a>
-    </div>
-    <ul class="list-product-menu">
-        <li class="">
-            <a href="">nổi bật</a>
-        </li>
-        <li>
-            <a href="">code wallet</a>
-        </li>
-        <li>
-            <a href="">key cs:go</a>
-        </li>
-        <li>
-            <a href="">bán chạy</a>
-        </li>
-        <li>
-            <a href="">origin</a>
-        </li>	
-        <li>
-            <a href="">mới</a>
-        </li>
-        <li>
-            <a href="">khuyến mại</a>
-        </li>
-    </ul>
-    <div class="list-product-menu-bonus">
-        <a href="">xem tất cả sản phẩm</a>
-    </div>
+    <jsp:include page="sub/carousel.jsp" flush="true" />
+    <jsp:include page="sub/list-menu.jsp" flush="true" />
     <div class="list-product-item">
-        <div class="product-item">
-            <div class="product-item-thumb">
-                <img src="img/game.jpg" alt="">
-                <a href="">
-                    <p>sdadasdasdasdasdasdsadasdasdsádsadasdasdsdasdasdadasdsadasdasdasdasdasdasdasd</p>
-                </a>
-                <div class="product-price-and-sale">
-                    <span class="official-price">225.000 VNĐ</span>
-                    <span class="sale-price">100.000 VNĐ</span>
-                    <span class="sale-percent">-43%</span>
+        <c:forEach items="${list_game}" var="game" >
+                <div class="product-item">
+                    <div class="product-item-thumb">
+                        <img src="${game.getImage()}" alt="">
+                        <a href="product.jsp?id=${game.getId()}"
+                            <p class="game-title">${game.getName()}</p>
+                        </a>
+                        <div class="product-price-and-sale">
+                            <span class="official-price">
+                                <fmt:formatNumber type="number" value="${game.getPrice()}" />
+                                VNĐ
+                            </span>
+                            <span class="sale-price">
+                                <fmt:formatNumber type="number" value="${game.getSale_price()}" />
+                                VNĐ
+                            </span>
+                            <span class="sale-percent">- ${game.getDiscount_percent()}%</span>
+                        </div>
+                        <div class="menu-cart-button">
+                            <button class="btn btn-danger">Mua ngay
+                            </button>
+                            <button type="" class="btn btn-danger btn-add-to-cart">Thêm vào giỏ
+                            </button>
+                        </div>
+                    </div>
                 </div>
-                <div class="menu-cart-button">
-                    <button class="btn btn-danger">Mua ngay
-                    </button>
-                    <button type="" class="btn btn-danger btn-add-to-cart">Thêm vào giỏ</button>
-                </div>
-            </div>
-        </div>
+           
+        </c:forEach>
     </div>
     <div class="commitment">
         <div class="bigshop-big-banner">
             <a href="">
-                <img src="img/big-banner1.png" alt="">
+                <img src="src/img/big-banner1.png" alt="">
             </a>
         </div>
         <div class="bigshop-big-banner">
             <a href="">
-                <img src="img/big-banner2.png" alt="">
+                <img src="src/img/big-banner2.png" alt="">
             </a>
         </div>
     </div>

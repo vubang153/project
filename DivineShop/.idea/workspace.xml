@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a4166ba6-6615-4834-b175-fce13247e835" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/nbproject/ant-deploy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/ant-deploy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/genfiles.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/genfiles.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/Controllers/asdasd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/dang-ky.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/html-source/dang-ky.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/js/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/layouts/file-include.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/layouts/file-include.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/layouts/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/layouts/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/layouts/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/layouts/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/layouts/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/layouts/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/layouts/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/layouts/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/trang-chu.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/html-source/trang-chu.html" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1TsxfeVkRITwKfxpcDKAo5E0HCv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a4166ba6-6615-4834-b175-fce13247e835" name="Default Changelist" comment="" />
+      <created>1574262708468</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574262708468</updated>
+      <workItem from="1574262710263" duration="59000" />
+    </task>
+    <servers />
+  </component>
+</project>

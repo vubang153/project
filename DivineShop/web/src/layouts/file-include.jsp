@@ -8,7 +8,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
     <script src="src/js/lib/jquery.js" type="text/javascript" charset="utf-8"></script>
     <script src="src/js/lib/jquery.form.js" type="text/javascript" charset="utf-8"></script>
     <script src="src/js/lib/jquery.mockjax.js" type="text/javascript" charset="utf-8"></script>
